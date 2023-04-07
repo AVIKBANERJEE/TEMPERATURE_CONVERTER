@@ -57,3 +57,182 @@ label{
     background-color: rgba(0, 0, 255, 0.479);
     /* color: black; */
 }
+
+/* ---------------------making the website responsive------------------------- */
+/* ------------adding media queries for meidum devices -------------------- */
+@media only screen and (min-width: 301px) and (max-width:500px){
+    h1{
+        text-align: center;
+        padding-bottom: 20px;
+        opacity: 10;
+    
+    }
+    .container{
+        width: 100%;
+        height: 100vh;
+        text-align: center;
+        background: rgba(0, 0, 0, 0.849);
+        background: url('https://egqusrjtrmt.exactdn.com/wp-content/uploads/2022/12/temperature-converter.webp?strip=all&lossy=1&ssl=1'); 
+        background-repeat: no-repeat;
+        background-size:100vw 100vh;
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items:center;
+        color: white;
+        
+    }
+    label{
+        display: block;
+    }
+    .temp{
+        width: 50vw;
+        padding: 50px 10px;
+        background-color:#0f2027;
+        box-shadow: 2px 2px 20px 2px #1e1e4e;
+    }
+    .input-div{
+        display: inline-block;
+    }
+    .input{
+        /* padding:5px 10px; */
+        margin: 10px;
+        font-size:20px;
+        font-weight: bold;
+        width: 120px;
+        text-align: center;
+    }
+    label{
+        font-size:22px;
+        font-family: 'Raleway', sans-serif;
+    }
+    .heading h1{
+        width: 100%;
+        padding: 10px;
+        font-size: 20px;
+        background-color: rgba(0, 0, 255, 0.479);
+        font-family: 'Raleway', sans-serif;
+        /* color: black; */
+    }
+    
+}
+/* -------------------adding media query for very small device------------ */
+
+@media only screen and (min-width: 100px) and (max-width:300px){
+    h1{
+        text-align: center;
+        padding-bottom: 20px;
+        opacity: 10;
+    
+    }
+    .container{
+        width: 100%;
+        height: 100vh;
+        text-align: center;
+        background: rgba(0, 0, 0, 0.849);
+        background: url('https://egqusrjtrmt.exactdn.com/wp-content/uploads/2022/12/temperature-converter.webp?strip=all&lossy=1&ssl=1'); 
+        background-repeat: no-repeat;
+        background-size:100vw 100vh;
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items:center;
+        color: white;
+        
+    }
+    label{
+        display: block;
+    }
+    .temp{
+        width: 50vw;
+        padding: 50px -3px 50px 5px;
+        background-color:#0f2027;
+        box-shadow: 2px 2px 20px 2px #1e1e4e;
+    }
+    .input-div{
+        display: inline-block;
+    }
+    .input{
+        /* padding:5px 10px; */
+        margin: 10px;
+        font-size:20px;
+        font-weight: bold;
+        width: 120px;
+        text-align: center;
+    }
+    label{
+        font-size:22px;
+        font-family: 'Raleway', sans-serif;
+    }
+    .heading h1{
+        width: 100%;
+        padding: 10px;
+        font-size: 14px;
+        background-color: rgba(0, 0, 255, 0.479);
+        font-family: 'Raleway', sans-serif;
+        /* color: black; */
+    }
+    
+}
+
+    /* ---------------for large devices-------------- */
+    @media only screen and (min-width: 501px) and (max-width:1000px){
+        h1{
+            text-align: center;
+            padding-bottom: 20px;
+            opacity: 10;
+        
+        }
+        .container{
+            width: 100%;
+            height: 100vh;
+            text-align: center;
+            background: rgba(0, 0, 0, 0.849);
+            background: url('https://egqusrjtrmt.exactdn.com/wp-content/uploads/2022/12/temperature-converter.webp?strip=all&lossy=1&ssl=1'); 
+            background-repeat: no-repeat;
+            background-size:100vw 100vh;
+            padding: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content:center;
+            align-items:center;
+            color: white;
+            
+        }
+        label{
+            display: block;
+        }
+        .temp{
+            width: 50vw;
+            padding: 50px 10px;
+            display: inline-block;
+            background-color:#0f2027;
+            box-shadow: 2px 2px 20px 2px #1e1e4e;
+        }
+        .input-div{
+            display: inline-block;
+        }
+        .input{
+            /* padding:5px 10px; */
+            margin: 10px;
+            font-size:20px;
+            font-weight: bold;
+            width: 120px;
+            text-align: center;
+        }
+        label{
+            font-size:22px;
+            font-family: 'Raleway', sans-serif;
+        }
+        .heading h1{
+            width: 100%;
+            padding: 10px;
+            font-size: 20px;
+            background-color: rgba(0, 0, 255, 0.479);
+            font-family: 'Raleway', sans-serif;
+            /* color: black; */
+        }
+        
+    }
