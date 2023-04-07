@@ -15,4 +15,5 @@ fah.addEventListener('input',function(){
     //this.value is cel.value and we will get the value whatever the user will give
     let c=(f-32)*5/9;
 
-    cel.value=c
+    cel.value=c;
+})
